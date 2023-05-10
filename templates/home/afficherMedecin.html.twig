@@ -2,12 +2,13 @@
 {% block title %} {{titre}} {% endblock %}
 
 {% block body %}
-<h1 class="text-center"> {{titre}} </h1>
 
 <div class="container">
     <div class="row">
         <div class="col-12">
-            
+            <p class="text-center"> Nom : {{medecin.nom}} </p>
+            <p class="text-center"> Matricule : {{medecin.matricule}} </p>
+            <p class="text-center"> Specialite : {{medecin.spacialite}} </p>
         </div>
     </div>
 </div>
